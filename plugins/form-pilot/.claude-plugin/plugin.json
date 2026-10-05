@@ -1,0 +1,12 @@
+{
+  "name": "form-pilot",
+  "version": "0.1.0",
+  "description": "form-pilot の MCP サーバーにつなぐ（初回に Google ログイン）",
+  "author": {
+    "name": "kei-nishio",
+    "url": "https://github.com/kei-nishio"
+  },
+  "homepage": "https://github.com/kei-nishio/form-pilot-plugins",
+  "repository": "https://github.com/kei-nishio/form-pilot-plugins",
+  "keywords": ["form-pilot", "mcp"]
+}

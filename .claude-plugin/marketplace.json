@@ -1,0 +1,15 @@
+{
+  "name": "form-pilot-plugins",
+  "description": "form-pilot を Claude Code / Codex から使うためのプラグイン",
+  "owner": {
+    "name": "kei-nishio",
+    "url": "https://github.com/kei-nishio"
+  },
+  "plugins": [
+    {
+      "name": "form-pilot",
+      "source": "./plugins/form-pilot",
+      "description": "form-pilot の MCP サーバーにつなぐ（初回に Google ログイン）"
+    }
+  ]
+}
