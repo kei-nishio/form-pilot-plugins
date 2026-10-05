@@ -22,7 +22,7 @@ claude mcp login plugin:form-pilot:form-pilot
 ```
 
 ブラウザで Google のログイン画面が開きます。form-pilot に登録した Google アカウントを選び、「許可する」を押してください。
-ターミナルでログインしたくない場合は、Claude Code を起動して `/mcp` を開き、`plugin:form-pilot:form-pilot` を選んで「Authenticate」でも同じです。
+Claude Code の中からログインする場合は、`/mcp` を開いて `plugin:form-pilot:form-pilot` を選び、認証のメニューを選んでも同じです。
 
 起動中の Claude Code には、再起動するか `/reload-plugins` を実行すると反映されます。
 
@@ -43,6 +43,8 @@ codex mcp login form-pilot
 
 ブラウザで Google のログイン画面が開きます。form-pilot に登録した Google アカウントを選び、「許可する」を押してください。
 
+Codex では、form-pilot のツールを初めて使う時に実行してよいか聞かれます。許可してください。
+
 ## 使い方
 
 AI に「手元で営業したリストを form-pilot に登録したい」と頼み、リストを渡してください。
@@ -51,7 +53,7 @@ AI はまず振り分け結果（新規・登録済み・要確認など）を�
 ## うまくいかない時
 
 - 「ログインできない」「権限がない」と出る: form-pilot に登録した Google アカウントでログインし直してください（Claude Code は `/mcp` から、Codex は `codex mcp logout form-pilot` のあと `codex mcp login form-pilot`）
-- 最新版にする: Claude Code は `claude plugin marketplace update form-pilot-plugins`、Codex は `codex plugin marketplace upgrade form-pilot-plugins`
+- 最新版にする: Claude Code は `claude plugin marketplace update form-pilot-plugins` のあと `claude plugin update form-pilot@form-pilot-plugins`、Codex は `codex plugin marketplace upgrade form-pilot-plugins`
 
 ## 削除する
 
