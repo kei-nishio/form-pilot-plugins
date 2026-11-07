@@ -10,11 +10,6 @@
       "name": "form-pilot",
       "source": "./plugins/form-pilot",
       "description": "form-pilot の MCP サーバーにつなぐ（初回に Google ログイン）"
-    },
-    {
-      "name": "form-pilot-stg",
-      "source": "./plugins/form-pilot-stg",
-      "description": "開発者用。form-pilot の staging（検証環境）につなぐ。一般の利用者は form-pilot を入れてください"
     }
   ]
 }
