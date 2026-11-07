@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "form-pilot-stg": {
+      "type": "http",
+      "url": "https://form-pilot-stg.plutoid.jp/mcp"
+    }
+  }
+}
